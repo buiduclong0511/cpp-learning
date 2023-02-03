@@ -28,6 +28,25 @@
         return 0;
     }
     ```
+- Khi có 1 biến ở phạm vi bên trong trùng tên với 1 biến ở phạm vi bên ngoài, chương trình sẽ ưu tiên lấy giá trị của biến ở phạm vi gần nhất
+    Ví dụ:
+    ```c
+    #include <iostream>
+
+    int main()
+    {
+        int main_var = 0;
+
+        {
+            int main_var = 1;
+            std::cout << main_var; // 1
+        }
+
+        std::cout << main_var; // 0
+
+        return 0;
+    }
+    ```
 2. Phạm vi toàn cục
 - Các biến được khai báo ở bên ngoài chương trình được gọi là biến toàn cục có thể được sử dụng ở bất cứ nơi nào trong chương trình.
     Ví dụ:
