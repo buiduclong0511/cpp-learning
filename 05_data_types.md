@@ -28,17 +28,17 @@
         return 0;
     }
     ```
-- Sử dụng các biến sau đây để kiểm tra giá trị max/min mà 1 kiểu dữ liệu có thể lưu trữ
-    - `INT_MAX`: Giá trị max của kiểu `int`
-    - `INT_MIN`: Giá trị min của kiểu `int`
-    - `SHRT_MAX`: Giá trị max của kiểu `short`
-    - `SHRT_MIN`: Giá trị min của kiểu `short`
-    - `LONG_MAX`: Giá trị max của kiểu `long`
-    - `LONG_MIN`: Giá trị min của kiểu `long`
-    - `FLT_MAX`: Giá trị max của kiểu `float`
-    - `FLT_MIN`: Giá trị min của kiểu `float`
-    - `DBL_MAX`: Giá trị max của kiểu `double`
-    - `DBL_MIN`: Giá trị min của kiểu `double`
+- Sử dụng các biến sau đây để kiểm tra giá trị lớn nhất hoặc nhỏ nhất mà 1 kiểu dữ liệu có thể lưu trữ
+    - `INT_MAX`: Giá trị lớn nhất mà kiểu `int` có thể lưu trữ.
+    - `INT_MIN`: Giá trị nhỏ nhất mà kiểu `int` có thể lưu trữ.
+    - `SHRT_MAX`: Giá trị nhất mà kiểu `short` có thể lưu trữ.
+    - `SHRT_MIN`: Giá trị nhỏ nh mà kiểu `short` có thể lưu trữ.
+    - `LONG_MAX`: Giá trị nhất mà kiểu `long` có thể lưu trữ.
+    - `LONG_MIN`: Giá trị nhỏ nh mà kiểu `long` có thể lưu trữ.
+    - `FLT_MAX`: Giá trị nhất mà kiểu `float` có thể lưu trữ.
+    - `FLT_MIN`: Giá trị nhỏ nh mà kiểu `float` có thể lưu trữ.
+    - `DBL_MAX`: Giá trị nhất mà kiểu `double` có thể lưu trữ.
+    - `DBL_MIN`: Giá trị nhỏ nh mà kiểu `double` có thể lưu trữ.
 
     Ví dụ:
     ```c
@@ -46,8 +46,8 @@
 
     int main()
     {
-        std::cout << "Giá trị max của kiểu int: " << INT_MAX;
+        std::cout << "Max int: " << INT_MAX;
 
-        retunr 0;
+        return 0;
     }
     ```
