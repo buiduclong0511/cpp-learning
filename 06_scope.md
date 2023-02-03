@@ -60,14 +60,14 @@
 
     int main()
     {
-        std::cout << "Trong hàm main: " << global_var << std::endl;
+        std::cout << "Main scope: " << global_var << std::endl;
 
         { // Phạm vi 1
-            std::cout << "Trong phạm vi 1: " << global_var << std::endl;
+            std::cout << "Scope 1: " << global_var << std::endl;
         }
 
         { // Phạm vi 2
-            std::cout << "Trong phạm vi 2: " << global_var << std::endl;
+            std::cout << "Scope 2: " << global_var << std::endl;
         }
 
         return 0;
