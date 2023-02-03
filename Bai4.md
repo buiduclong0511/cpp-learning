@@ -17,27 +17,6 @@ int main()
 }
 ```
 
-- Đọc/ghi dữ liệu
-```c
-#include <iostream>
-
-int main()
-{
-    int x; // Khai báo biến x có kiểu dữ liệu số nguyên (integer)
-    float y; // Khai báo biến y có kiểu dữ liệu số thực (float)
-    char c; // Khai báo biến c có kiểu dữ liệu ký tự (character)
-
-    std::cin >> x;
-    std::cin >> y;
-    std::cin >> c;
-
-    std::cout << x;
-    std::cout << y;
-    std::cout << c;
-
-    return 0;
-}
-```
 ## Cách đặt tên biến
 - Không đặt tên biến trùng với từ khóa (void, for, while, do, delete,...)
 - Tên biến không chứa khoảng trắng hoặc ký tự đặc biệt
