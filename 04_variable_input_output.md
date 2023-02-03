@@ -46,18 +46,18 @@ int main()
         int main()
         {
             int x;
-            std::cout << "Nhập vào giá trị của x: ";
+            std::cout << "Type value of x: ";
             std::cin >> x; // Nhập vào giá trị của x
 
-            std::cout << "Giá trị của x là " << x; // In ra console giá trị của x
+            std::cout << "Value of x: " << x; // In ra console giá trị của x
 
             return 0;
         }
     ```
     Kết quả:
     ```
-    Nhập vào giá trị của x: 10
-    Giá trị của x là 10
+    Type value of x: 10
+    Value of x: 10
     ```
     - `std::endl`: Ngắt dòng khi hiển thị dữ liệu trên console, có thể dùng ký tự `\n` để thay thế.
     ```c
