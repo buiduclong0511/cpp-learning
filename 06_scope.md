@@ -3,7 +3,7 @@
 - Biến khai báo ở phạm vi nào thì chỉ được sử dụng ở trong phạm vi đó (đó được gọi là các biến cục bộ).
 
     Ví dụ:
-    ```c
+    ```cpp
     #include <iostream> 
 
     int main()
@@ -32,7 +32,7 @@
 - Khi có 1 biến ở phạm vi bên trong trùng tên với 1 biến ở phạm vi bên ngoài, chương trình sẽ ưu tiên lấy giá trị của biến ở phạm vi gần nhất.
 
     Ví dụ:
-    ```c
+    ```cpp
     #include <iostream>
 
     int main()
@@ -53,7 +53,7 @@
 - Các biến được khai báo ở bên ngoài chương trình được gọi là biến toàn cục có thể được sử dụng ở bất cứ nơi nào trong chương trình.
 
     Ví dụ:
-    ```c
+    ```cpp
     #include <iostream>
 
     int global_var = 1;
