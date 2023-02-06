@@ -1,5 +1,5 @@
 ## Biến (variable) là gì?
-- Biến (variable) đại diện cho **vùng nhớ** lưu trữ dữ liệu của chương trình, biến được dùng để đọc/ghi dữ liệu.
+- Biến là thứ được dùng để lưu trữ dữ liệu của chương trình.
 - Cách sử dụng biến:
     - Trước khi sử dụng phải khai báo biến
     - Cú pháp khai báo: `<Kiểu dữ liệu> <Tên biến>;` hoặc `<Kiểu dữ liệu> <Tên biến 1>, <Tên biến 2>,...;`
