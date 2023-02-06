@@ -9,9 +9,15 @@
 
 int main()
 {
-    int x; // Khai báo biến x có kiểu dữ liệu số nguyên (integer)
-    float y; // Khai báo biến y có kiểu dữ liệu số thực (float)
+    int i; // Khai báo biến i có kiểu dữ liệu số nguyên (integer)
+    float f; // Khai báo biến f có kiểu dữ liệu số thực (float)
     char c; // Khai báo biến c có kiểu dữ liệu ký tự (character)
+
+    int a, b; // Khai báo 2 biến a, b có kiểu dữ liệu số nguyên (integer)
+
+    int d = 1; // Khai báo biến d và gán (assign) cho biến d giá trị 1
+
+    std::cout << d;
 
     return 0;
 }
@@ -32,7 +38,7 @@ int main()
         {
             std::cout << "Hello World!"; // In ra console chuỗi "Hello World!"
 
-            return 0
+            return 0;
         }
     ```
     Kết quả:
@@ -46,7 +52,7 @@ int main()
         int main()
         {
             int x;
-            std::cout << "Type value of x: ";
+            std::cout << "x = ";
             std::cin >> x; // Nhập vào giá trị của x
 
             std::cout << "Value of x: " << x; // In ra console giá trị của x
@@ -56,7 +62,7 @@ int main()
     ```
     Kết quả:
     ```
-    Type value of x: 10
+    x = 10
     Value of x: 10
     ```
     - `std::endl`: Ngắt dòng khi hiển thị dữ liệu trên console, có thể dùng ký tự `\n` để thay thế.
