@@ -3,7 +3,7 @@
     - Integer (int): Kiểu số nguyên (`1`, `2`, `3`)
     - Float (float): Kiểu số thực (`1.2`, `1.3`, `3.14`,...)
     - Double (double): Kiểu số thực (có không gian lưu trữ lớn hơn so với float)
-    - Boolean (bool): True/False
+    - Boolean (bool): 1/0 (True/False)
     - Character (char): Kiểu ký tự (`'a'`, `'b'`, `'c'`,...)
 - Ngoài ra còn có các kiểu dữ liệu khác: `long`, `long long`, `unsigned long`, `short`, `unsigned short`,...
 
