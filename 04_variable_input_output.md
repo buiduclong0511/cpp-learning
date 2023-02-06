@@ -3,7 +3,6 @@
 - Cách sử dụng biến:
     - Trước khi sử dụng phải khai báo biến
     - Cú pháp khai báo: `<Kiểu dữ liệu> <Tên biến>;` hoặc `<Kiểu dữ liệu> <Tên biến 1>, <Tên biến 2>,...;`
-  
 
     ```c
     #include <iostream>
@@ -37,14 +36,14 @@
 - Để nhập xuất dữ liệu trong C++, chúng ta sử dụng thư viện `iostream`. Thư viện này cung cấp cho chúng ta những thứ được định nghĩa sẵn để sử dụng.
     - `std::cout`: In dữ liệu ra console
     ```c
-        #include <iostream>
+    #include <iostream>
 
-        int main()
-        {
-            std::cout << "Hello World!"; // In ra console chuỗi "Hello World!"
+    int main()
+    {
+        std::cout << "Hello World!"; // In ra console chuỗi "Hello World!"
 
-            return 0;
-        }
+        return 0;
+    }
     ```
     Kết quả:
     ```
@@ -52,18 +51,18 @@
     ```
     - `std::cin`: Đọc dữ liệu từ bàn phím và gán dữ liệu cho biến được chỉ định. Dùng cho thao tác nhập dữ liệu.
     ```c
-        #include <iostream>
+    #include <iostream>
 
-        int main()
-        {
-            int x;
-            std::cout << "x = ";
-            std::cin >> x; // Nhập vào giá trị của x
+    int main()
+    {
+        int x;
+        std::cout << "x = ";
+        std::cin >> x; // Nhập vào giá trị của x
 
-            std::cout << "Value of x: " << x; // In ra console giá trị của x
+        std::cout << "Value of x: " << x; // In ra console giá trị của x
 
-            return 0;
-        }
+        return 0;
+    }
     ```
     Kết quả:
     ```
@@ -72,16 +71,16 @@
     ```
     - `std::endl`: Ngắt dòng khi hiển thị dữ liệu trên console, có thể dùng ký tự `\n` để thay thế.
     ```c
-        #include <iostream>
+    #include <iostream>
 
-        int main()
-        {
-            std::cout << "Hello World!" << std::endl;
-            std::cout << "CPP" << std::endl << "Learing!" << std::endl;
-            std::cout << "Full\nStack";
+    int main()
+    {
+        std::cout << "Hello World!" << std::endl;
+        std::cout << "CPP" << std::endl << "Learing!" << std::endl;
+        std::cout << "Full\nStack";
 
-            return 0;
-        }
+        return 0;
+    }
     ```
     Kết quả:
     ```
