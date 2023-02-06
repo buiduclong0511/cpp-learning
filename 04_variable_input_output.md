@@ -3,6 +3,7 @@
 - Cách sử dụng biến:
     - Trước khi sử dụng phải khai báo biến
     - Cú pháp khai báo: `<Kiểu dữ liệu> <Tên biến>;` hoặc `<Kiểu dữ liệu> <Tên biến 1>, <Tên biến 2>,...;`
+  
 
     ```c
     #include <iostream>
