@@ -7,28 +7,28 @@
     - Character (char): Kiểu ký tự (`'a'`, `'b'`, `'c'`,...)
 - Ngoài ra còn có các kiểu dữ liệu khác: `long`, `long long`, `unsigned long`, `short`, `unsigned short`,...
 
+    ```c
+    #include <iostream>
+
+    int main()
+    {
+        int a = 1;
+        float b = 1.4;
+        char c = 'a';
+        bool d = true;
+        bool e = 1;
+
+        return 0;
+    }
+    ```
+
 ## Giới hạn lưu trữ
 - Ngoài việc lưu trữ các loại dữ liệu khác nhau, mỗi kiểu dữ liệu lại có các giới hạn lưu trữ khác nhau
 
     Ví dụ:
     - Kiểu `int` có thể lưu trữ 4 byte (-2,147,483,648 tới 2,147,483,647)
     - Kiểu `short` có thể lưu trữ 2 byte (-32,768 tới 32,767)
-- Sử dụng `sizeof` để xác định số lượng byte mà một kiểu dữ liệu có thể lưu trữ
-
-    Ví dụ:
-    ```c
-    #include <iostream>
-
-    int main()
-    {
-        std::cout << sizeof(int); // 4
-        std::cout << sizeof(float); // 4
-        std::cout << sizeof(double); // 8
-
-        return 0;
-    }
-    ```
-- Sử dụng các biến sau đây để kiểm tra giá trị lớn nhất hoặc nhỏ nhất mà 1 kiểu dữ liệu có thể lưu trữ
+- Sử dụng các macro sau đây để kiểm tra giá trị lớn nhất hoặc nhỏ nhất mà 1 kiểu dữ liệu có thể lưu trữ
     - `INT_MAX`: Giá trị lớn nhất mà kiểu `int` có thể lưu trữ.
     - `INT_MIN`: Giá trị nhỏ nhất mà kiểu `int` có thể lưu trữ.
     - `SHRT_MAX`: Giá trị nhất mà kiểu `short` có thể lưu trữ.
@@ -46,7 +46,25 @@
 
     int main()
     {
+        std::cout << "Min int: " << INT_MIN;
         std::cout << "Max int: " << INT_MAX;
+        std::cout << "Min short: " << SHRT_MIN;
+        std::cout << "Max short: " << SHRT_MAX;
+
+        return 0;
+    }
+    ```
+- Sử dụng `sizeof` để xác định số lượng byte mà một kiểu dữ liệu có thể lưu trữ
+
+    Ví dụ:
+    ```c
+    #include <iostream>
+
+    int main()
+    {
+        std::cout << sizeof(int); // 4
+        std::cout << sizeof(float); // 4
+        std::cout << sizeof(double); // 8
 
         return 0;
     }
