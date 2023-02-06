@@ -1,3 +1,5 @@
+## Biến cục bộ và biến toàn cục
+
 1. Phạm vi cục bộ
 - Trong 1 chương trình sẽ có các phạm vi (scope), mỗi 1 phạm vi sẽ được thể hiện bằng dấu `{}`.
 - Biến khai báo ở phạm vi nào thì chỉ được sử dụng ở trong phạm vi đó (đó được gọi là các biến cục bộ).
