@@ -13,10 +13,15 @@
     int main()
     {
         int a = 1;
+        
         float b = 1.4;
-        char c = 'a';
-        bool d = true;
-        bool e = 1;
+        
+        double c = 3.14;
+        
+        char d = 'a';
+        
+        bool e = true;
+        bool f = 1;
 
         return 0;
     }
