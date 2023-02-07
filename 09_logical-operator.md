@@ -1,0 +1,88 @@
+##  Toán tử quan hệ
+- Là các phép toán để thực hiện việc so sánh: `>`, `<`, `>=`, `<=`, `==`, `!=`.
+- Các phép toán này trả về giá trị boolean.
+
+    Ví dụ:
+    ```c
+    #include <iostream>
+
+    using namespace std;
+
+    int main()
+    {
+        cout << 3 > 2 << endl; // 1 - true
+        cout << 1 > 2 << endl; // 0 - false
+
+        int a = 3;
+        int b = 3;
+        cout << a == b << endl; // 1 - true
+
+        bool c = a < b;
+        cout << c << endl; // 0 - false
+
+        return 0;
+    }
+    ```
+    Kết quả:
+    ```
+    1
+    0
+    1
+    0
+    ```
+- Lưu ý: 2 giá trị tham gia vào phép so sánh phải có cùng kiểu dữ liệu.
+
+##  Toán tử logic
+-  Các toán tử logic trong C++: `AND (&&)`, `OR (||)`, `NOT (!)`
+    - AND: Nếu 2 vế đều là `true` thì kết quả trả về là `true`, các trường hợp còn lại thì trả về `false`.
+    - OR: Nếu 2 vế đều là `false` thì kết quả trả về là `false`, các trường hợp còn lại thì trả về `true`.
+    - NOT: Trả về giá trị phủ định.
+
+    Ví dụ:
+    ```c
+    #include <iostream>
+
+    using namespace std;
+
+    int main()
+    {
+        // AND
+        cout << true && true << endl; // 1 - true
+        cout << true && false << endl; // 0 - false
+        cout << false && true << endl; // 0 - false
+        cout << false && false << endl; // 0 - false
+
+        // OR
+        cout << true || true << endl; // 1 - true
+        cout << true || false << endl; // 1 - true
+        cout << false || true << endl; // 1 - true
+        cout << false || false << endl; // 0 - false
+
+        // NOT
+        cout << !true << endl; // 0 - false
+        cout << !false << endl; // 1 - true
+
+        return 0;
+    }
+    ```
+- Sử dụng kết hợp với toán tử quan hệ.
+
+    Ví dụ:
+    ```c
+    #include <iotream>
+
+    using namespace std;
+
+    int main()
+    {
+        int a = 1, b = 2, c = 3;
+
+        bool d = (a < b) && (b > c); // true && false
+        bool e = (a < b) || (b > c); // true || false
+
+        cout << e << endl; // 0 - false
+        cout << f << endl; // 1 - true
+
+        return 0;
+    }
+    ```
